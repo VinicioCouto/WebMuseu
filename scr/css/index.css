@@ -83,7 +83,7 @@ header img {
 /* ----Título---- */
 
 .titulo {
-   background-image: url('img/indeximagen.png');
+   background-image: url('../img/indeximagen.png');
     background-position: center top;
     background-size: 100% auto;
     background-repeat: no-repeat;
