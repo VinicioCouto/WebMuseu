@@ -1,0 +1,19 @@
+.conteinerVideos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 600px;
+    height: 350px;
+    margin-top: 30px;
+}
+
+.videoyoutube{
+    border-radius: 20px;
+}

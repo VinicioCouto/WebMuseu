@@ -1,0 +1,44 @@
+.conteinerTexto{
+ display: flex;
+ flex-wrap: wrap;
+ 
+}
+
+
+.conteinerDoc{
+    background-color: #7AE77A;
+    width: 350px;
+    min-height: 150px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+
+.conteinerDoc h2{
+    margin-left: 10px;
+    padding-top: 0px
+   
+}
+
+.conteinerDoc p{
+    margin-left: 15px;
+}
+
+.buttonT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 140px;
+    margin-left: 30%;
+    border-radius: 30px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.buttonT:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,318 @@
+
+
+body {
+    margin: 0%;
+    
+}
+
+a {
+    all: unset;
+}
+
+
+/* ----Cabeçalho---- */
+.cabacalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+header img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.favicon{
+    width: 90px;
+    margin-top: -300px;
+}
+
+
+
+.iconMoon {
+    font-size: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: block;
+}
+
+.iconSunny {
+    font-size: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgb(2, 2, 2);
+    display: none;
+}
+
+/* ----Cabeçalho---- */
+
+/* ----Menu---- */
+
+.conteinerMenu {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(59, 210, 124, 1);
+    margin: 0%;
+    padding: -5px;
+}
+
+.opition {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.opition p {
+    color: aliceblue;
+}
+
+.iconMenu {
+    margin-right: 10px;
+    color: aliceblue;
+}
+
+/* ----Menu---- */
+
+/* ----Título---- */
+
+.titulo {
+    background-image: url('./scr/img/indeximagen.png');
+    background-position: center top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video1 {
+    width: 500px;
+    height: 315px;
+    border-radius: 20px;
+}
+
+.conteinervideo {
+    background-color: rgba(255, 255, 255, 0.356);
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.titulotext {
+    color: white;
+    margin-right: 30px;
+    font-size: 40px;
+
+}
+
+/* ----Título---- */
+
+/* ----Main---- */
+
+.conteinertexto {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    border: solid 2px rgba(67, 226, 35, 0.795);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+
+}
+
+.conteinertexto p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.conteinerLeiaMais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+
+}
+
+
+.buttonLeiaMais {
+    display: flex;
+    align-items: center;
+    background-color: rgb(24, 217, 53);
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.conteinerLeiaMais h2 {
+    color: rgb(24, 217, 53);
+}
+
+
+
+.buttonLeiaMais p {
+    color: white;
+    margin-left: 10px;
+}
+
+.drive {
+    color: white;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    /* Centraliza os itens horizontalmente */
+    align-items: center;
+    /* Centraliza os itens verticalmente */
+    height: 100vh;
+    /* Ocupa toda a altura da tela */
+    margin-left: -130px;
+}
+
+/* Estilos para as divs dentro do main */
+.conteinerLeiaMais,
+.map-container {
+    margin: 0 10px;
+    /* Adiciona um espaço entre as divs */
+    margin-left: 100px;
+}
+
+
+.imgPesquisador {
+    width: 150px;
+    /* Defina a largura desejada */
+    height: 150px;
+    /* Defina a altura desejada */
+    object-fit: cover;
+    /* Mantém a proporção da imagem e corta o excesso */
+    border-radius: 50%;
+    margin-bottom: 0px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.pesquisador1 {
+    margin-right: 90px;
+}
+
+.conteinerimgP {
+    display: flex;
+    margin-top: 30px;
+}
+
+.conteinerPesquisadores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteinerPesquisadores h2 {
+    color: rgba(16, 118, 60, 1);
+}
+
+.conteinerContatos {
+    background-color: rgba(59, 210, 124, 1);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 0%;
+}
+
+.Email {
+    margin-left: 30px;
+    color: white;
+}
+
+.redesSociais {
+    margin-right: 10px;
+    margin-top: 60px;
+}
+
+.iconredes {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/* ----Main---- */
+
+/* ----Hover---- */
+
+.iconMoon:hover {
+    color: rgb(195, 171, 218);
+    border-radius: 50%;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.iconSunny:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(31, 167, 208);
+    padding: 10px;
+    text-align: center;
+}
+
+.opition:hover {
+    scale: 1.1;
+}
+
+.buttonLeiaMais:hover {
+    transform: scale(1.2);
+}
+
+.imgPesquisador:hover {
+    transform: scale(1.1);
+}
+
+.iconredes:hover {
+    transform: scale(1.3);
+}
+
+/* ----Hover---- */
+
+/* ----Dimencoes---- */
+
+@media (max-width: 923px) {
+
+    .conteinervideo {
+        background-color: rgba(255, 255, 255, 0.356);
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .titulotext {
+        color: white;
+        font-size: 40px;
+        margin-left: 100px;
+
+    }
+
+    .video1 {
+        width: 300px;
+        height: 215px;
+        border-radius: 20px;
+    }
+}
+
+
+
+/* ----Dimencoes---- */
